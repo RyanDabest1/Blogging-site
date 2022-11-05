@@ -74,10 +74,16 @@
   }
 .card2:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); ;
-}
-
-  
-  .container2 {
+}  
+.container2 {
     padding: 16px;
     display: block;
   }
+.button1:hover{
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+
+}
