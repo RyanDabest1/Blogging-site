@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.side-nav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    background-color: black;
+    width: 190px;
+}
+
+.side-nav>p {
+    text-align: right;
+    font-size: xx-large;
+    font-family: fantasy;
+    padding-right: 10px;
+}
+
+.side-nav>a {
+    padding: 10px 4px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    display: block;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.side-nav>a:hover {
+    text-shadow: 2px 1px rgb(43, 0, 255);
+}
+
+.circular-img {
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    margin-left: 10px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), #151a2d7d), url(../img/banner3.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+form {
+    width: 90%;
+    max-width: 600px;
+}
+
+.input {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: 3px solid white;
+    outline: 0;
+    font-size: 15px;
+}
+
+label {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    cursor: text;
+    height: 100%;
+    transition: 0.2s;
+}
+
+button {
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+    outline: none;
+    border: 1px solid rgb(255, 255, 255);
+    width: 100%;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+input:focus~label,
+textarea:focus~label {
+    top: -24px;
+    font-size: 13px;
+}
+
+input:valid~label,
+textarea:valid~label {
+    top: -24px;
+    font-size: 13px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.container,
+.input {
+    flex: auto;
+    margin: 10px;
+    margin-bottom: 18px;
+}
