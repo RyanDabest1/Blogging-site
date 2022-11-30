@@ -173,8 +173,27 @@
     .blogTitle {
         margin-left: 39%;
     }
+    .card2{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 
+}
 
+@media screen and (min-width: 1800px) {
+    .banner {
+        width: 100%;
+        background-image:
+            linear-gradient(to right, rgb(255, 255, 255) 15%, rgba(60, 59, 59, 0.8) 60%, rgb(0, 0, 0) 90%),
+            url("../img/banner.png");
+    }
+    .card {
+        margin-left: 23%;
+    }
+    .card2{
+        margin-left: 10%;
+    }
+    
 }
 
 @media screen and (max-width: 400px) {
