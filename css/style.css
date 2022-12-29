@@ -196,32 +196,4 @@
     
 }
 
-@media screen and (max-width: 400px) {
 
-    .about {
-        width: 20%;
-        margin: 2%;
-    }
-
-    .button1 {
-        margin-left: 0;
-        margin-top: 0;
-        width: 0;
-        display: block;
-    }
-
-    .banner {
-        width: 100%;
-    }
-
-    .writer {
-        border: 1px solid black;
-        margin-left: 20%;
-        border-radius: 40%;
-        margin-top: 10%;
-        width: 60%;
-        margin-left: 30%;
-        margin-bottom: 3%;
-    }
-
-}
